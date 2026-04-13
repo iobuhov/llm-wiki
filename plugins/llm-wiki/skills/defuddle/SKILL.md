@@ -27,7 +27,7 @@ Verify: `defuddle --version`
 ### Clean a URL directly
 
 ```bash
-defuddle https://example.com/article
+defuddle parse -m https://example.com/article
 ```
 
 Outputs clean markdown to stdout.
@@ -50,7 +50,7 @@ SLUG="article-slug-$(date +%Y-%m-%d)"
 ### Clean a local HTML file
 
 ```bash
-defuddle page.html
+defuddle parse -m page.html
 ```
 
 ---
