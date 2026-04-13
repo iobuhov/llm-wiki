@@ -1,18 +1,17 @@
 {
-  "name": "iobuhov_wiki",
+  "name": "iobuhov_llm-wiki",
   "owner": {
     "name": "Illia Obukhov",
     "email": "pluto.kuiper.zofaa@slmail.me"
   },
   "metadata": {
     "description": "Plugin collection by iobuhov",
-    "version": "1.0.0",
-    "pluginRoot": "./plugins"
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "llm-wiki",
-      "source": "llm-wiki"
+      "source": "./plugins/llm-wiki"
     }
   ]
 }
